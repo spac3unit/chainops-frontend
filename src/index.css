@@ -13,6 +13,9 @@ h5 {
 ul {
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'IBM Plex Mono', 'Segoe UI',

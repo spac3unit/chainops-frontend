@@ -55,10 +55,24 @@ export const Projects = () => {
   return (
     <section className={styles.projects}>
       <div className={styles.container}>
-        <div className={styles.text}>
-          <h2>Mainnets and Testnets</h2>
-          <h5>Projects at the Mainnet and Testnet stages that we validate</h5>
+        <div className={styles.header}>
+          <div className={styles.text}>
+            <h2>Mainnets and Testnets</h2>
+            <h5>Projects at the Mainnet and Testnet stages that we validate</h5>
+          </div>
+          <div className={styles.filter}>
+            <a href="#" className={styles.filter_link}>
+              Active
+            </a>
+            <a href="#" className={styles.filter_link}>
+              Upcoming
+            </a>
+            <a href="#" className={styles.filter_link}>
+              Ended
+            </a>
+          </div>
         </div>
+
         <div className={styles.inner}>
           {projectsData.map((project) => (
             <div className={styles.project}>
