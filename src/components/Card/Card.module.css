@@ -1,0 +1,33 @@
+.card {
+  background: #fff;
+  border: 0.05rem solid #fff;
+  border-radius: 0.8rem;
+  box-shadow: 0 0.2rem 0.8rem rgb(51 51 51 / 5%);
+  color: #333;
+  height: 100%;
+  padding: 1rem;
+  position: relative;
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+  display: flex;
+}
+.card:hover {
+  box-shadow: 0 0.5rem 1rem rgb(51 51 51 / 10%);
+  text-decoration: none;
+  transform: translateY(-0.1rem);
+}
+.card:hover .logo {
+  cursor: pointer;
+}
+.logo {
+  border-radius: 50%;
+}
+.header {
+  display: flex;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}

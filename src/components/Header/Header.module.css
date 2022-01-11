@@ -1,0 +1,34 @@
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.header {
+  background: #0c0e27;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0;
+}
+.logo a {
+  display: flex;
+  align-items: center;
+}
+.logo span {
+  color: #fff;
+  font-size: 22px;
+  margin-left: 20px;
+}
+.list {
+  display: flex;
+  list-style: none;
+}
+.item {
+  margin: 0 24px;
+}
+.link {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
