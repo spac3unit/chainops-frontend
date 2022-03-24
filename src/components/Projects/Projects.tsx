@@ -49,6 +49,24 @@ const projectsData = [
     image: 'https://anyvalid.com/images/projects/Axelar.jpg',
     status: Statuses.Active,
   },
+  {
+    title: 'Kira',
+    subtitle: 'Incentivized Testnet',
+    image: 'https://stakeangle.com/images/Kira-logo.png',
+    status: Statuses.Active,
+  },
+  {
+    title: 'Evmos',
+    subtitle: 'Incentivized Testnet',
+    image: 'https://stakeangle.com/images/Evmos-logo.png',
+    status: Statuses.Active,
+  },
+  {
+    title: 'Idep',
+    subtitle: 'Incentivized Testnet',
+    image: 'https://stakeangle.com/images/IDEP-logo.png',
+    status: Statuses.Active,
+  },
 ];
 
 export const Projects = () => {

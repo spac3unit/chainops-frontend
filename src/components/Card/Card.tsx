@@ -6,7 +6,7 @@ export const Card = ({ img, title, subtitle }: any) => {
         <img
           src={img}
           alt="project logo"
-          width="150px"
+          width="120px"
           className={styles.logo}
         />
       </div>

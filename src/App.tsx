@@ -2,7 +2,7 @@ import React from 'react';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { Projects } from './components/Projects/';
-
+import { Team } from './components/Team';
 import './App.css';
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <Header />
       <Hero />
       <Projects />
+      <Team />
     </div>
   );
 }

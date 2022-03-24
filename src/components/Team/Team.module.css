@@ -1,0 +1,26 @@
+.team {
+  padding: 20px 0;
+}
+.header {
+  text-align: center;
+  
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.inner {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 34px;
+}
+.title {
+  font-size: 32px;
+}
+.photo {
+  min-height: 230px;
+}
